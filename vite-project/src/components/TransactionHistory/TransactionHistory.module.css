@@ -1,0 +1,22 @@
+.table {
+    width: 600px;
+    margin: 40px auto;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+  }
+  
+  .table th,
+  .table td {
+    border: 1px solid #d9d9d9;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .table thead {
+    background-color: #484848;
+    font-weight: bold;
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #868686;
+  }
